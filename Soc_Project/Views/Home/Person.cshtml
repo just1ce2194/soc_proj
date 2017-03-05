@@ -1,0 +1,65 @@
+﻿@using Soc_Project.BLL.Models
+
+@{
+    ViewBag.Title = "Person";
+}
+
+@model PersonVm
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+
+            @using (Html.BeginForm("AddPerson", "Home", FormMethod.Post, new { @class = "form-group" }))
+            {
+                @Html.HiddenFor(m => m.Id)
+                <div class="row">
+                    @Html.LabelFor(m => m.FirstName)
+                </div>
+                <div class="row">
+                    @Html.TextBox("FirstName", Model.FirstName, new { @class = "input-sm" })
+                </div>
+                <div class="row">
+                    @Html.LabelFor(m => m.LastName)
+                </div>
+                <div class="row">
+                    @Html.TextBox("LastName", Model.LastName, new { @class = "input-sm" })
+                </div>
+                <div class="row">
+                    @Html.LabelFor(m => m.MiddleName)
+                </div>
+                <div class="row">
+                    @Html.TextBox("MiddleName", Model.MiddleName, new { @class = "input-sm" })
+                </div>
+                <div class="row">
+                    @Html.LabelFor(m => m.GraduateYear)
+                </div>
+                <div class="row">
+                    @Html.TextBox("GraduateYear", Model.GraduateYear, new { @class = "input-sm" })
+                </div>
+                    <div class="row">
+                        @Html.LabelFor(m => m.VkId)
+                    </div>
+                    <div class="row">
+                        @Html.TextBox("VkId", Model.VkId, new { @class = "input-sm" })
+                    </div>
+                    <div class="row">
+                        @Html.LabelFor(m => m.FacebookId)
+                    </div>
+                    <div class="row">
+                        @Html.TextBox("FacebookId", Model.FacebookId, new { @class = "input-sm" })
+                    </div>
+                    <div class="row">
+                        @Html.LabelFor(m => m.LinkedInId)
+                    </div>
+                    <div class="row">
+                        @Html.TextBox("LinkedInId", Model.LinkedInId, new { @class = "input-sm" })
+                    </div>
+                    <div class="row">
+                        <button type="submit" style="color:green">Add</button>
+                    </div>
+                    }
+                </div>
+
+            </div>
+        </div>

@@ -1,0 +1,24 @@
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\Soc_Project.DAL.dll.config
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\Soc_Project.DAL.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\Soc_Project.DAL.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\obj\Debug\Soc_Project.DAL.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\obj\Debug\Soc_Project.DAL.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.DAL\obj\Debug\Soc_Project.DAL.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\Soc_Project.DAL.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\Soc_Project.DAL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\Soc_Project.DAL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\obj\Debug\Soc_Project.DAL.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\obj\Debug\Soc_Project.DAL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.DAL\obj\Debug\Soc_Project.DAL.pdb

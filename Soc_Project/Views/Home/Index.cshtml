@@ -1,0 +1,40 @@
+﻿@using Soc_Project.Models.Job
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@model JobsVm
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Position</th>
+                        <th>Employer</th>
+                        <th>Organization</th>
+                        <th>Start</th>
+                        <th>End</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var job in Model.Jobs)
+                    {
+                        <tr>
+                            <th scope="row">@job.Id</th>
+                            <td>@job.Position</td>
+                            <td>@job.Employer</td>
+                            <td>@job.Organization</td>
+                            <td>@job.Start</td>
+                            <td>@job.End</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

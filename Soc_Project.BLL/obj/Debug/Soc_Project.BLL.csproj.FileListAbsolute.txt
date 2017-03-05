@@ -1,0 +1,94 @@
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.BLL.dll.config
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.BLL.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.BLL.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\AutoMapper.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\HtmlAgilityPack.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.DAL.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Sparkle.LinkedInNET.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Helpers.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Mvc.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Razor.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\VkNet.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\EntityFramework.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.DAL.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\AutoMapper.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\HtmlAgilityPack.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Sparkle.LinkedInNET.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\Sparkle.LinkedInNET.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Helpers.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Mvc.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Razor.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\VkNet.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\EntityFramework.xml
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.csproj.App.config
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.csprojResolveAssemblyReference.cache
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.pdb
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\LinkedIn.NET.dll
+C:\Users\just1ce\Downloads\soc_proj-master\soc_proj-master\Soc_Project.BLL\bin\Debug\LinkedIn.NET.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.BLL.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.BLL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.BLL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\AutoMapper.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\LinkedIn.NET.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.DAL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Sparkle.LinkedInNET.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Helpers.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\VkNet.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Soc_Project.DAL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\AutoMapper.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\LinkedIn.NET.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Sparkle.LinkedInNET.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\Sparkle.LinkedInNET.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Helpers.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\VkNet.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.csproj.App.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\soc_proj-master\Soc_Project.BLL\obj\Debug\Soc_Project.BLL.pdb

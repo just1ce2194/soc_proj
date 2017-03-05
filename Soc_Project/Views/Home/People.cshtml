@@ -1,0 +1,57 @@
+﻿@using Soc_Project.Models
+
+@{
+    ViewBag.Title = "People";
+}
+
+@model PeopleVm
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>GraduateYear</th>
+                        <th>Vkontakte</th>
+                        <th>LinkedIn</th>
+                        <th>Facebook</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var person in Model.Persons)
+                    {
+                        <tr>
+                            <th scope="row">@person.Id</th>
+                            <td><a href="Person/@person.Id" target="_blank">@person.FullName</a></td>
+                            <td>@person.GraduateYear</td>
+                            <td>
+                                @if (person.VkId != null)
+                                {
+                                    <a href="//vk.com/@person.VkId" target="_blank">@person.VkId</a>
+                                }
+                            </td>
+                            <td>
+                                @if (person.LinkedInId != null)
+                                {
+                                    <a href="//linkedin.com/@person.LinkedInId" target="_blank">@person.LinkedInId</a>
+                                }
+                            </td>
+                            <td>
+                                @if (person.FacebookId != null)
+                                {
+                                    <a href="//facebook.com/@person.FacebookId" target="_blank">@person.FacebookId</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="row">
+                <a href="Person/">Add Person</a>
+            </div>
+        </div>
+    </div>
+</div>
