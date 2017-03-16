@@ -14,6 +14,13 @@ namespace Soc_Project
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+               name: "Linked",
+               url: "LinkedPerson",
+               defaults: new { controller = "Home", action = "LinkedPerson"}
+           );
+
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

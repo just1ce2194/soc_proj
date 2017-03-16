@@ -14,18 +14,20 @@ namespace Soc_Project.BLL.Api
 
         protected VkApiWraper() : base()
         {
-            ulong appID = 5783219;
-            string email = "+380992361276";
+            //Set here yours credentionals, AppId. See: https://vk.com/dev/web_how_to_start
+
+            ulong appID = 0;
+            string email = "+";
             string pass = "";
             Settings scope = Settings.All;
 
-            Authorize(new ApiAuthParams
-            {
-                ApplicationId = appID,
-                Login = email,
-                Password = pass,
-                Settings = scope
-            });
+            //Authorize(new ApiAuthParams
+            //{
+            //    ApplicationId = appID,
+            //    Login = email,
+            //    Password = pass,
+            //    Settings = scope
+            //});
         }
 
         public static VkApiWraper getInstance()

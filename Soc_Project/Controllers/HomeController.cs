@@ -1,4 +1,5 @@
-﻿using Soc_Project.BLL.Models;
+﻿using Soc_Project.BLL.Api;
+using Soc_Project.BLL.Models;
 using Soc_Project.BLL.Services;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,12 @@ namespace Soc_Project.Controllers
     {
         private ISocialService SocialService;
 
-        public HomeController(ISocialService socialService)
+        private LinkedInApiService LinkedInApiService;
+
+        public HomeController(ISocialService socialService, LinkedInApiService linkedInApiService)
         {
             this.SocialService = socialService;
+            this.LinkedInApiService = linkedInApiService;
         }
 
         public ActionResult Index()
@@ -64,6 +68,14 @@ namespace Soc_Project.Controllers
             var model = SocialService.GetPerson(id);
 
             return View(model);
+        }
+
+        [AllowAnonymous]
+        public ActionResult LinkedPerson(string code)
+        {
+            this.LinkedInApiService.SaveUserInfo(code);
+
+            return RedirectToAction("Index");
         }
 
         [HttpPost]

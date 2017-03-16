@@ -3,6 +3,7 @@ using LinkedIn.NET.Members;
 using LinkedIn.NET.Options;
 using Soc_Project.DAL.Entities;
 using Soc_Project.DAL.Uow;
+using Sparkle.LinkedInNET;
 using Sparkle.LinkedInNET.OAuth2;
 using System;
 using System.Collections.Generic;
@@ -19,81 +20,67 @@ namespace Soc_Project.BLL.Api
 
         private LinkenInApiWraper linked;
 
+        private string redirectUrl = "http://localhost:1883/LinkedPerson";
+
         public LinkedInApiService(IUnitOfWork unitOfWork)
         {
             this.UnitOfWork = unitOfWork;
 
             linked = LinkenInApiWraper.getInstance();
-
-            Sync();
         }
 
-        public void Sync()
+        public void SaveUserInfo(string authorizationCode)
+        {
+            var access_token = linked.OAuth2.GetAccessToken(authorizationCode, redirectUrl);
+
+            UserAuthorization d = new UserAuthorization(access_token.AccessToken);
+
+            var fieldSelector = FieldSelector.For<Sparkle.LinkedInNET.Profiles.Person>();
+            fieldSelector.Add("first-name");
+            fieldSelector.Add("last-name");
+            fieldSelector.Add("positions");
+            fieldSelector.Add("public-profile-url");
+
+            var linkedUser = linked.Profiles.GetMyProfile(d, null, fieldSelector);
+
+            var user = UnitOfWork.Persons.Query(x => x.Jobs).FirstOrDefault(x => x.FirstName == linkedUser.Firstname && x.LastName == linkedUser.Lastname);
+
+            if (user == null)
+            {
+                user = new Person() { FirstName = linkedUser.Firstname, LastName = linkedUser.Lastname, LinkedInId = linkedUser.PublicProfileUrl };
+                UnitOfWork.Persons.Add(user);
+                UnitOfWork.Save();
+            }
+
+            foreach (var position in linkedUser.Positions.Position)
+            {
+                var org = UnitOfWork.Organizations.FirstOrDefault(x => x.Name == position.Company.Name);
+
+                if (org == null)
+                {
+                    org = new Organization()
+                    {
+                        Name = position.Company.Name,
+                        SocialId = position.Company.Id.ToString()
+                    };
+
+                    UnitOfWork.Organizations.Add(org);
+                    UnitOfWork.Save();
+                }
+
+                user.Jobs.Add(new Job() { Position = position.Title, Start = position.StartDate != null ? position.StartDate.Year : null, End = position.EndDate != null ? position.EndDate.Year : null, OrganizationId = org.Id });
+            }
+
+            UnitOfWork.Save();
+        }
+
+        public string GetAuthorizationCode()
         {
             var scope = AuthorizationScope.ReadBasicProfile | AuthorizationScope.ReadEmailAddress;
             var state = Guid.NewGuid().ToString();
-            var redirectUrl = "http://localhost:1883/";
             var url = linked.OAuth2.GetAuthorizationUrl(scope, state, redirectUrl);
 
-            var d = 3;
-
-            //var s = linked.Profiles.GetMyProfile;
-            //var persons = UnitOfWork.Persons.Query().ToList();
-
-            //foreach (var person in persons)
-            //{
-            //    Thread.Sleep(500);
-
-            //    if (!String.IsNullOrEmpty(person.LinkedInId))
-            //    {
-            //        try
-            //        {
-            //            var options = new LinkedInGetMemberOptions();
-            //            options.BasicProfileOptions.SelectAll();
-            //            options.EmailProfileOptions.SelectAll();
-            //            options.FullProfileOptions.SelectAll();
-
-            //            options.Parameters.GetBy = LinkedInGetMemberBy.Id;
-            //            options.Parameters.RequestBy = person.LinkedInId;
-
-            //            var linkedUser = linked.GetMember(new LinkedInGetMemberOptions());
-
-            //            if (linkedUser != null)
-            //            {
-            //                var positions = linkedUser.Result.FullProfile.ThreeCurrentPositions;
-
-            //                if (positions != null)
-            //                {
-            //                    foreach (var career in positions)
-            //                    {
-            //                        var company = career.Company;
-
-            //                        if (company != null)
-            //                        {
-            //                            AddOrganization(new Organization()
-            //                            {
-            //                                Name = company.Name,
-            //                                SocialId = company.Id
-            //                            });
-
-            //                            var org = UnitOfWork.Organizations.Query().Where(x => x.Name == company.Name).FirstOrDefault();
-
-            //                            AddJob(new Job()
-            //                            {
-            //                                PersonId = person.Id,
-            //                                OrganizationId = org.Id,
-            //                                Position = career.Title,
-            //                                Start = career.StartDate.Year,
-            //                                End = career.EndDate.Year
-            //                            });
-            //                        }
-            //                    }
-            //                }
-            //            }
-            //        }
-            //        catch (Exception ex) { }
-            //    }
-            //}
+            return url.AbsoluteUri;
         }
 
         private void AddJob(Job job)
