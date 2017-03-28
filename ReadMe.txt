@@ -3,5 +3,4 @@ https://www.linkedin.com/uas/oauth2/authorization?response_type=code&client_id=8
 User go to this link, authorize in LinkedIn, then redirects to http://{domain}/LinkedPerson
 System will catch auth code from linkedin, and grab info about user(positions, firstaname, lastname, social_url...) and save to db.
 
-LinkedIn ApiKey and SecretKey: "86eiib65xp5z67", "xyA4alNXOLO2GiyZ"
 You can change keys for yours own.
